@@ -1,0 +1,42 @@
+import time
+
+def punch():
+    print("Performing a punch...")
+    # Add code here to simulate or track the punch movement
+    time.sleep(1)  # Simulate a 1-second punch
+    print("Punch complete!")
+
+def kick():
+    print("Performing a kick...")
+    # Add code here to simulate or track the kick movement
+    time.sleep(2)  # Simulate a 2-second kick
+    print("Kick complete!")
+
+def weapon_swing():
+    print("Performing a weapon swing...")
+    # Add code here to simulate or track the weapon swinging movement
+    time.sleep(3)  # Simulate a 3-second weapon swing
+    print("Weapon swing complete!")
+
+def do_push_ups(num_push_ups):
+    print(f"Performing {num_push_ups} push-ups...")
+    for i in range(num_push_ups):
+        # Add code here to simulate or track each push-up
+        time.sleep(1)  # Simulate a 1-second push-up
+        print(f"Completed push-up {i+1}")
+    print("Push-ups complete!")
+
+def do_sit_ups(num_sit_ups):
+    print(f"Performing {num_sit_ups} sit-ups...")
+    for i in range(num_sit_ups):
+        # Add code here to simulate or track each sit-up
+        time.sleep(1)  # Simulate a 1-second sit-up
+        print(f"Completed sit-up {i+1}")
+    print("Sit-ups complete!")
+
+# Example usage:
+punch()
+kick()
+weapon_swing()
+do_push_ups(10)
+do_sit_ups(15)
