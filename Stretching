@@ -1,0 +1,19 @@
+import time
+
+def stretch():
+    print("Performing a stretch...")
+    # Add code here to simulate or track the stretch movement
+    time.sleep(2)  # Simulate a 2-second stretch
+    print("Stretch complete!")
+
+def do_stretching(num_stretches):
+    print(f"Performing {num_stretches} stretches...")
+    for i in range(num_stretches):
+        # Add code here to simulate or track each stretch
+        time.sleep(2)  # Simulate a 2-second stretch
+        print(f"Completed stretch {i+1}")
+    print("Stretching routine complete!")
+
+# Example usage:
+stretch()
+do_stretching(5)
